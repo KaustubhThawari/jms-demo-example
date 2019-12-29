@@ -7,7 +7,9 @@ import javax.jms.Session;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-
+/**
+* This class is application class
+*/
 public class Application {
 	public ConnectionFactory getConnectionFactory() {
 		return new ActiveMQConnectionFactory("tcp:test:8161");
